@@ -1,0 +1,36 @@
+{
+  "profile": {
+    "interests": [
+      "AI",
+      "VR"
+    ],
+    "level": "beginner",
+    "available_minutes": 30
+  },
+  "result": {
+    "recommendations": [
+      {
+        "id": "C1",
+        "reason_ko": "관심사 'AI'가 태그와 일치하고, 수준이 'beginner'로 사용자 수준과 같으며, 10분이 가용 시간 30분 이내입니다.",
+        "reason_zh": "兴趣标签“AI”与课程匹配，级别为初级（beginner）与用户一致，时长10分钟在可用时间30分钟以内。"
+      },
+      {
+        "id": "C3",
+        "reason_ko": "관심사 'VR'이 태그와 일치하고, 수준이 'beginner'로 사용자 수준과 같으며, 25분이 가용 시간 30분 이내입니다.",
+        "reason_zh": "兴趣标签“VR”与课程匹配，级别为初级（beginner）与用户一致，时长25分钟在可用时间30分钟以内。"
+      }
+    ],
+    "excluded": [
+      {
+        "id": "C2",
+        "reason_ko": "수준이 'advanced'로 사용자의 'beginner'와 불일치하며, 90분이 가용 시간 30분을 초과합니다.",
+        "reason_zh": "级别为高级（advanced），与用户的初级（beginner）不符；且时长90分钟超过可用时间30分钟。"
+      },
+      {
+        "id": "C4",
+        "reason_ko": "태그 'Statistics'가 사용자의 관심사 'AI', 'VR'과 일치하지 않으며, 수준이 'intermediate'로 사용자의 'beginner'와 불일치하고, 60분이 가용 시간 30분을 초과합니다.",
+        "reason_zh": "标签“Statistics”与用户兴趣“AI”、“VR”不匹配；级别为中级（intermediate），与用户的初级（beginner）不符；且时长60分钟超过可用时间30分钟。"
+      }
+    ]
+  }
+}

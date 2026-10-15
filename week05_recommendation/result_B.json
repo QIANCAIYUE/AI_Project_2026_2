@@ -1,0 +1,35 @@
+{
+  "profile": {
+    "interests": [
+      "Statistics"
+    ],
+    "level": "intermediate",
+    "available_minutes": 90
+  },
+  "result": {
+    "recommendations": [
+      {
+        "id": "C4",
+        "reason_ko": "이 과목의 태그 'Statistics'는 사용자의 관심사 'Statistics'와 일치하고, 레벨 'intermediate'는 사용자의 레벨과 동일하며, 시간 60분은 사용자가 가능한 최대 시간 90분을 초과하지 않습니다.",
+        "reason_zh": "该课程的标签'Statistics'与用户的兴趣'Statistics'匹配，级别'intermediate'与用户级别相同，时长60分钟未超过用户可用的最大时间90分钟。"
+      }
+    ],
+    "excluded": [
+      {
+        "id": "C1",
+        "reason_ko": "태그 'AI'가 사용자의 관심사 'Statistics'와 일치하지 않고, 레벨 'beginner'가 사용자의 레벨 'intermediate'와 다릅니다.",
+        "reason_zh": "标签'AI'与用户的兴趣'Statistics'不匹配，且级别'beginner'与用户级别'intermediate'不同。"
+      },
+      {
+        "id": "C2",
+        "reason_ko": "태그 'AI'가 사용자의 관심사 'Statistics'와 일치하지 않고, 레벨 'advanced'가 사용자의 레벨 'intermediate'와 다릅니다.",
+        "reason_zh": "标签'AI'与用户的兴趣'Statistics'不匹配，且级别'advanced'与用户级别'intermediate'不同。"
+      },
+      {
+        "id": "C3",
+        "reason_ko": "태그 'VR'이 사용자의 관심사 'Statistics'와 일치하지 않고, 레벨 'beginner'가 사용자의 레벨 'intermediate'와 다릅니다.",
+        "reason_zh": "标签'VR'与用户的兴趣'Statistics'不匹配，且级别'beginner'与用户级别'intermediate'不同。"
+      }
+    ]
+  }
+}
